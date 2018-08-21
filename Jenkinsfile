@@ -51,7 +51,7 @@ podTemplate(label: 'mypod',
                 if [ \${?} -ne "0" ]; then
                     # No deployment to update
                     echo 'No deployment to update'
-                    exit 1
+                    # exit 1
                 fi
 
                 # Update Deployment
